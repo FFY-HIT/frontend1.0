@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2f3288f1-0b3c-4850-b97d-80f084bf10a7" name="Default" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dev-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/dev-server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.dev.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/common/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/common/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/common/Sidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/common/Sidebar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/page/account_admin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/account_admin.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/page/announcement_admin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/announcement_admin.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/page/announcement_overview.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/announcement_overview.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/page/key_admin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/key_admin.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/page/log_admin.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/page/strategy_admin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/strategy_admin.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/page/trust_admin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/trust_admin.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>director</find>
+      <find>checkpasswd1</find>
+      <find>change_leader</find>
+      <find>change_role</find>
+      <find>submit</find>
+      <find>del_user</find>
+      <find>ban</find>
+      <find>role</find>
+      <find>role:</find>
+      <find>checkpasswd</find>
+      <find>rule</find>
+      <find>rules1</find>
+      <find>checkuser</find>
+      <find>options</find>
+      <find>data1</find>
+      <find>submit1</find>
+      <find>form1</find>
+      <find>remind</find>
+      <find>adduser</find>
+      <find>type=&quot;password&quot;</find>
+      <find>type</find>
+      <find>openedit</find>
+      <find>delete</find>
+      <find>rules</find>
+      <find>del_fav</find>
+      <find>created</find>
+      <find>init</find>
+      <find>login-wrap</find>
+      <find>login-btn</find>
+      <find>vSidebar</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>this.data</replace>
+      <replace>this.data2[i]</replace>
+      <replace />
+      <replace>127.0.0.1</replace>
+      <replace>123.207.88.106</replace>
+      <replace>bg.jpg</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/admin/page/istatements.vue" />
+        <option value="$PROJECT_DIR$/src/finance/page/sign.vue" />
+        <option value="$PROJECT_DIR$/src/components/page/listhis.vue" />
+        <option value="$PROJECT_DIR$/src/components/page/sign.vue" />
+        <option value="$PROJECT_DIR$/src/myfinance.vue" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/components/common/Sidebar.vue" />
+        <option value="$PROJECT_DIR$/src/components/common/Home.vue" />
+        <option value="$PROJECT_DIR$/src/components/page/jSignature.html" />
+        <option value="$PROJECT_DIR$/src/components/page/picShow.html" />
+        <option value="$PROJECT_DIR$/src/components/common/Header.vue" />
+        <option value="$PROJECT_DIR$/src/finance/common/Header.vue" />
+        <option value="$PROJECT_DIR$/static/jSignature.html" />
+        <option value="$PROJECT_DIR$/src/finance/common/Sidebar.vue" />
+        <option value="$PROJECT_DIR$/src/finance/page/mypf.vue" />
+        <option value="$PROJECT_DIR$/src/admin/page/statements4prj.vue" />
+        <option value="$PROJECT_DIR$/src/finance/page/cashier.vue" />
+        <option value="$PROJECT_DIR$/src/finance/page/myfinance.vue" />
+        <option value="$PROJECT_DIR$/src/admin/page/listprj.vue" />
+        <option value="$PROJECT_DIR$/src/admin/page/listadmin.vue" />
+        <option value="$PROJECT_DIR$/src/admin/page/listprjft.vue" />
+        <option value="$PROJECT_DIR$/src/admin/page/Login.vue" />
+        <option value="$PROJECT_DIR$/src/components/page/myprj.vue" />
+        <option value="$PROJECT_DIR$/src/admin/page/listtaken.vue" />
+        <option value="$PROJECT_DIR$/src/admin/page/clerk.vue" />
+        <option value="$PROJECT_DIR$/src/admin/page/show.vue" />
+        <option value="$PROJECT_DIR$/src/admin/page/customer.vue" />
+        <option value="$PROJECT_DIR$/config/index.js" />
+        <option value="$PROJECT_DIR$/src/admin/page/student.vue" />
+        <option value="$PROJECT_DIR$/src/admin/page/login.vue" />
+        <option value="$PROJECT_DIR$/src/teacher/common/Sidebar.vue" />
+        <option value="$PROJECT_DIR$/src/admin/page/watch.vue" />
+        <option value="$PROJECT_DIR$/src/admin/page/account_student.vue" />
+        <option value="$PROJECT_DIR$/src/admin/page/account_teacher.vue" />
+        <option value="$PROJECT_DIR$/src/teacher/page/look.vue" />
+        <option value="$PROJECT_DIR$/src/teacher/common/Header.vue" />
+        <option value="$PROJECT_DIR$/src/admin/page/deal.vue" />
+        <option value="$PROJECT_DIR$/src/student/page/course.vue" />
+        <option value="$PROJECT_DIR$/src/student/page/write.vue" />
+        <option value="$PROJECT_DIR$/src/student/common/Header.vue" />
+        <option value="$PROJECT_DIR$/src/student/common/Sidebar.vue" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/router/index.js" />
+        <option value="$PROJECT_DIR$/src/index.vue" />
+        <option value="$PROJECT_DIR$/src/admin/page/favorite_admin.vue" />
+        <option value="$PROJECT_DIR$/src/admin/common/Home.vue" />
+        <option value="$PROJECT_DIR$/src/admin/common/Sidebar.vue" />
+        <option value="$PROJECT_DIR$/src/admin/page/account_admin.vue" />
+        <option value="$PROJECT_DIR$/src/login.vue" />
+        <option value="$PROJECT_DIR$/src/admin/common/Header.vue" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/dist/static/js/FileSaver.js-master/package.json" />
+      <path value="$PROJECT_DIR$/dist/static/js/xlsx/js-xlsx-master/demos/angular2/package.json" />
+      <path value="$PROJECT_DIR$/dist/static/js/xlsx/js-xlsx-master/demos/electron/package.json" />
+      <path value="$PROJECT_DIR$/dist/static/js/xlsx/js-xlsx-master/demos/meteor/package.json" />
+      <path value="$PROJECT_DIR$/dist/static/js/xlsx/js-xlsx-master/demos/nwjs/package.json" />
+      <path value="$PROJECT_DIR$/dist/static/js/xlsx/js-xlsx-master/demos/typescript/package.json" />
+      <path value="$PROJECT_DIR$/dist/static/js/xlsx/js-xlsx-master/demos/vue/package.json" />
+      <path value="$PROJECT_DIR$/dist/static/js/xlsx/js-xlsx-master/demos/xhr/package.json" />
+      <path value="$PROJECT_DIR$/dist/static/js/xlsx/js-xlsx-master/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/static/js/FileSaver.js-master/package.json" />
+      <path value="$PROJECT_DIR$/static/js/xlsx/js-xlsx-master/demos/angular2/package.json" />
+      <path value="$PROJECT_DIR$/static/js/xlsx/js-xlsx-master/demos/electron/package.json" />
+      <path value="$PROJECT_DIR$/static/js/xlsx/js-xlsx-master/demos/meteor/package.json" />
+      <path value="$PROJECT_DIR$/static/js/xlsx/js-xlsx-master/demos/nwjs/package.json" />
+      <path value="$PROJECT_DIR$/static/js/xlsx/js-xlsx-master/demos/typescript/package.json" />
+      <path value="$PROJECT_DIR$/static/js/xlsx/js-xlsx-master/demos/vue/package.json" />
+      <path value="$PROJECT_DIR$/static/js/xlsx/js-xlsx-master/demos/xhr/package.json" />
+      <path value="$PROJECT_DIR$/static/js/xlsx/js-xlsx-master/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-665" />
+    <option name="y" value="5" />
+    <option name="width" value="1555" />
+    <option name="height" value="920" />
+  </component>
+  <component name="ProjectId" id="2dZm0FTHadIS3hjM6nY6D6AfW47" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code quality toolsCSS</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Node.jsJavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myFavorite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myFavorite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myFavorite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myFavorite" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myFavorite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myFavorite" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myFavorite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myFavorite" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myFavorite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myFavorite" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myFavorite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myFavorite" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myFavorite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myFavorite" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WebstormProjects/test/user_test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\数据库原理\homework\leave\src" />
+      <recent name="C:\yb\ybprjprocessingweb\src\finance\common" />
+      <recent name="C:\yb\ybprjprocessing_ws\static\Files\goodsdetail" />
+      <recent name="C:\yb\ybprjprocessing_ws\static" />
+      <recent name="C:\Users\林洋炀\Desktop\大二\1月波\1月波\ybprjprocessing_ws\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\asus\Desktop\myFavorite\myFavorite\src" />
+      <recent name="E:\数据库原理\homework\leave\src\student\page" />
+      <recent name="E:\数据库原理\homework\leave\src\admin\page" />
+      <recent name="E:\数据库原理\homework\leave\src\teacher" />
+      <recent name="E:\数据库原理\homework\leave\src\student" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.vue-test">
+    <configuration name="vue-test" type="NodeJSConfigurationType" path-to-js-file="$PROJECT_DIR$/build/dev-server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="build:dll" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build:dll" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.vue-test" />
+      <item itemvalue="npm.dev" />
+      <item itemvalue="npm.build:dll" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build:dll" />
+        <item itemvalue="npm.dev" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f3288f1-0b3c-4850-b97d-80f084bf10a7" name="Default" comment="" />
+      <created>1517882374935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1517882374935</updated>
+      <workItem from="1517882377245" duration="9000" />
+      <workItem from="1517882396479" duration="8907000" />
+      <workItem from="1517896315636" duration="8820000" />
+      <workItem from="1518256918002" duration="5317000" />
+      <workItem from="1518442289654" duration="6134000" />
+      <workItem from="1518542806175" duration="551000" />
+      <workItem from="1519199115825" duration="2841000" />
+      <workItem from="1519292953795" duration="20289000" />
+      <workItem from="1519468940297" duration="17477000" />
+      <workItem from="1519542274053" duration="1361000" />
+      <workItem from="1520148798585" duration="2091000" />
+      <workItem from="1520234271644" duration="4179000" />
+      <workItem from="1520388167549" duration="18181000" />
+      <workItem from="1520496893397" duration="4638000" />
+      <workItem from="1520584879546" duration="2210000" />
+      <workItem from="1520644055781" duration="14282000" />
+      <workItem from="1520745151405" duration="6018000" />
+      <workItem from="1520864680720" duration="1526000" />
+      <workItem from="1521005073398" duration="5280000" />
+      <workItem from="1521091914096" duration="805000" />
+      <workItem from="1521436107964" duration="2377000" />
+      <workItem from="1521444176757" duration="30000" />
+      <workItem from="1521982136609" duration="6854000" />
+      <workItem from="1522233461978" duration="27000" />
+      <workItem from="1522303540759" duration="7303000" />
+      <workItem from="1522313265890" duration="1815000" />
+      <workItem from="1522400769735" duration="2430000" />
+      <workItem from="1522461766541" duration="10000" />
+      <workItem from="1522815107221" duration="2000" />
+      <workItem from="1522815112951" duration="759000" />
+      <workItem from="1522844943273" duration="849000" />
+      <workItem from="1523161506315" duration="1626000" />
+      <workItem from="1523178862827" duration="7000" />
+      <workItem from="1523334819457" duration="2996000" />
+      <workItem from="1523425618955" duration="4040000" />
+      <workItem from="1523437051076" duration="23000" />
+      <workItem from="1523513366133" duration="2993000" />
+      <workItem from="1523789123893" duration="2706000" />
+      <workItem from="1526698457888" duration="718000" />
+      <workItem from="1527040277799" duration="1286000" />
+      <workItem from="1527046276364" duration="147000" />
+      <workItem from="1527070491141" duration="11635000" />
+      <workItem from="1527091199545" duration="2098000" />
+      <workItem from="1527145632531" duration="13548000" />
+      <workItem from="1527230561227" duration="12432000" />
+      <workItem from="1527263419894" duration="630000" />
+      <workItem from="1527308064226" duration="1819000" />
+      <workItem from="1527326018982" duration="1915000" />
+      <workItem from="1528462088676" duration="20372000" />
+      <workItem from="1528516922600" duration="39313000" />
+      <workItem from="1528604946662" duration="953000" />
+      <workItem from="1528610882225" duration="1911000" />
+      <workItem from="1528615749122" duration="1234000" />
+      <workItem from="1528620265492" duration="1347000" />
+      <workItem from="1528722518666" duration="1120000" />
+      <workItem from="1528767780056" duration="17120000" />
+      <workItem from="1528852022765" duration="6713000" />
+      <workItem from="1529042287196" duration="9044000" />
+      <workItem from="1529127168441" duration="9853000" />
+      <workItem from="1529221132001" duration="19713000" />
+      <workItem from="1529301611594" duration="1187000" />
+      <workItem from="1529302830256" duration="713000" />
+      <workItem from="1529304341835" duration="1583000" />
+      <workItem from="1529306019700" duration="490000" />
+      <workItem from="1529307173731" duration="14013000" />
+      <workItem from="1529331861556" duration="594000" />
+      <workItem from="1529476232677" duration="13434000" />
+      <workItem from="1529560394089" duration="1686000" />
+      <workItem from="1529640866695" duration="15692000" />
+      <workItem from="1529659060720" duration="416000" />
+      <workItem from="1529663489736" duration="2400000" />
+      <workItem from="1529833537975" duration="2115000" />
+      <workItem from="1529996339617" duration="2151000" />
+      <workItem from="1530021308731" duration="793000" />
+      <workItem from="1530186579763" duration="1088000" />
+      <workItem from="1530272779328" duration="6962000" />
+      <workItem from="1530282042122" duration="254000" />
+      <workItem from="1530282320888" duration="189000" />
+      <workItem from="1530282543433" duration="434000" />
+      <workItem from="1530283873174" duration="1218000" />
+      <workItem from="1530343124484" duration="1772000" />
+      <workItem from="1530591688655" duration="1777000" />
+      <workItem from="1530599784636" duration="1222000" />
+      <workItem from="1530601835878" duration="22540000" />
+      <workItem from="1530672321491" duration="1199000" />
+      <workItem from="1530709427642" duration="8353000" />
+      <workItem from="1530726007518" duration="3770000" />
+      <workItem from="1530846423904" duration="4809000" />
+      <workItem from="1530877393993" duration="1165000" />
+      <workItem from="1530963688877" duration="222000" />
+      <workItem from="1531023125092" duration="2490000" />
+      <workItem from="1531032450429" duration="666000" />
+      <workItem from="1531042204720" duration="8486000" />
+      <workItem from="1531102167064" duration="8326000" />
+      <workItem from="1531206551237" duration="2631000" />
+      <workItem from="1531209861308" duration="1190000" />
+      <workItem from="1531214036638" duration="5401000" />
+      <workItem from="1531298856699" duration="15108000" />
+      <workItem from="1531369333963" duration="11674000" />
+      <workItem from="1531382964703" duration="1439000" />
+      <workItem from="1531405453414" duration="2721000" />
+      <workItem from="1531448462175" duration="12499000" />
+      <workItem from="1531468084294" duration="759000" />
+      <workItem from="1531469945130" duration="1659000" />
+      <workItem from="1531622787910" duration="2021000" />
+      <workItem from="1531632344667" duration="808000" />
+      <workItem from="1531633185632" duration="5896000" />
+      <workItem from="1531723005922" duration="15000" />
+      <workItem from="1531723379390" duration="344000" />
+      <workItem from="1531724259892" duration="64000" />
+      <workItem from="1531724761872" duration="10310000" />
+      <workItem from="1531737914741" duration="4535000" />
+      <workItem from="1531744810322" duration="2029000" />
+      <workItem from="1531810859600" duration="182000" />
+      <workItem from="1531811347060" duration="409000" />
+      <workItem from="1531811977005" duration="1271000" />
+      <workItem from="1531814623204" duration="1015000" />
+      <workItem from="1531816747546" duration="11386000" />
+      <workItem from="1531890367053" duration="1196000" />
+      <workItem from="1531897904720" duration="217000" />
+      <workItem from="1531901282068" duration="4639000" />
+      <workItem from="1531919223065" duration="840000" />
+      <workItem from="1531969934943" duration="4170000" />
+      <workItem from="1531991149508" duration="2105000" />
+      <workItem from="1532073243836" duration="1310000" />
+      <workItem from="1532153331446" duration="1444000" />
+      <workItem from="1532330215645" duration="4865000" />
+      <workItem from="1532495401275" duration="3859000" />
+      <workItem from="1532857313156" duration="5908000" />
+      <workItem from="1532917826879" duration="22618000" />
+      <workItem from="1533006291652" duration="1172000" />
+      <workItem from="1533017156732" duration="692000" />
+      <workItem from="1533018185967" duration="5881000" />
+      <workItem from="1533098933561" duration="8913000" />
+      <workItem from="1533172119298" duration="16429000" />
+      <workItem from="1533354986748" duration="4496000" />
+      <workItem from="1533373670501" duration="8981000" />
+      <workItem from="1533462482649" duration="9596000" />
+      <workItem from="1533530300411" duration="7203000" />
+      <workItem from="1533558373523" duration="633000" />
+      <workItem from="1533604696469" duration="18459000" />
+      <workItem from="1533638631622" duration="8478000" />
+      <workItem from="1533701973398" duration="14482000" />
+      <workItem from="1535282292980" duration="716000" />
+      <workItem from="1535336696080" duration="2492000" />
+      <workItem from="1535374717577" duration="447000" />
+      <workItem from="1535610340036" duration="10920000" />
+      <workItem from="1535951557699" duration="13234000" />
+      <workItem from="1536386071398" duration="18644000" />
+      <workItem from="1536474102146" duration="15696000" />
+      <workItem from="1536534144258" duration="3915000" />
+      <workItem from="1536551348376" duration="3694000" />
+      <workItem from="1536563783442" duration="10560000" />
+      <workItem from="1536627456585" duration="595000" />
+      <workItem from="1536629777079" duration="248000" />
+      <workItem from="1536993236480" duration="4188000" />
+      <workItem from="1537072445648" duration="8236000" />
+      <workItem from="1537108561461" duration="83000" />
+      <workItem from="1537174416599" duration="377000" />
+      <workItem from="1537424558609" duration="11000" />
+      <workItem from="1537498256611" duration="302000" />
+      <workItem from="1537761939050" duration="3366000" />
+      <workItem from="1537772153568" duration="609000" />
+      <workItem from="1537772830549" duration="1176000" />
+      <workItem from="1537775492901" duration="269000" />
+      <workItem from="1538026321117" duration="152000" />
+      <workItem from="1538298375468" duration="1557000" />
+      <workItem from="1538910888068" duration="181000" />
+      <workItem from="1539163987952" duration="135000" />
+      <workItem from="1539236409534" duration="4751000" />
+      <workItem from="1539243244645" duration="2238000" />
+      <workItem from="1539328491481" duration="3174000" />
+      <workItem from="1539384004318" duration="15071000" />
+      <workItem from="1539492464361" duration="11445000" />
+      <workItem from="1539509994349" duration="5851000" />
+      <workItem from="1539645664524" duration="7809000" />
+      <workItem from="1539654405360" duration="18687000" />
+      <workItem from="1539731139178" duration="18953000" />
+      <workItem from="1539785787339" duration="623000" />
+      <workItem from="1539789145807" duration="7000" />
+      <workItem from="1540274772627" duration="18000" />
+      <workItem from="1558857817118" duration="13272000" />
+      <workItem from="1558877588057" duration="5482000" />
+      <workItem from="1558886509045" duration="698000" />
+      <workItem from="1558915657175" duration="512000" />
+      <workItem from="1558916517336" duration="93000" />
+      <workItem from="1558916947522" duration="73000" />
+      <workItem from="1559055072789" duration="182000" />
+      <workItem from="1559547644597" duration="232000" />
+      <workItem from="1561449450829" duration="23279000" />
+      <workItem from="1561509174016" duration="10742000" />
+      <workItem from="1561534622138" duration="20017000" />
+      <workItem from="1561596460225" duration="1205000" />
+      <workItem from="1561682406190" duration="1207000" />
+      <workItem from="1561775873948" duration="3028000" />
+      <workItem from="1561880421751" duration="707000" />
+      <workItem from="1565878809785" duration="1042000" />
+      <workItem from="1578373415313" duration="3996000" />
+      <workItem from="1578377657453" duration="15874000" />
+      <workItem from="1578455028046" duration="1200000" />
+      <workItem from="1578460170420" duration="609000" />
+      <workItem from="1578542836500" duration="4045000" />
+      <workItem from="1578553228436" duration="645000" />
+      <workItem from="1710223752275" duration="10943000" />
+      <workItem from="1710243955419" duration="1198000" />
+      <workItem from="1710246698102" duration="563000" />
+      <workItem from="1710247672042" duration="2313000" />
+      <workItem from="1710290904182" duration="1994000" />
+      <workItem from="1710493966027" duration="5000" />
+      <workItem from="1710555103993" duration="1273000" />
+      <workItem from="1710557210140" duration="3583000" />
+      <workItem from="1710575311841" duration="3695000" />
+      <workItem from="1710595792195" duration="4834000" />
+      <workItem from="1710653129605" duration="5448000" />
+      <workItem from="1710728598036" duration="2017000" />
+      <workItem from="1710742664603" duration="3248000" />
+      <workItem from="1710812094750" duration="1003000" />
+      <workItem from="1710813616742" duration="4856000" />
+      <workItem from="1710834737159" duration="5139000" />
+      <workItem from="1710844482565" duration="3822000" />
+      <workItem from="1710892381414" duration="12459000" />
+      <workItem from="1710910128264" duration="15151000" />
+      <workItem from="1710988937572" duration="268000" />
+      <workItem from="1710989232283" duration="57000" />
+      <workItem from="1710989373000" duration="358000" />
+      <workItem from="1712297990510" duration="1969000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1029415000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49156356" visible="true" weight="0.17899604" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="npm" order="2" sideWeight="0.50843644" side_tool="true" weight="0.18763213" />
+      <window_info id="Favorites" order="3" sideWeight="0.50843644" side_tool="true" weight="0.18763213" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32531825" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49141347" weight="0.20792079" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="1.0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49867898" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5085865" side_tool="true" weight="0.4016973" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49867898" weight="0.32673267" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="调试" order="11" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/static/picShow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/jSignature.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/finance/common/Home.vue" />
+    <entry file="file://$PROJECT_DIR$/src/finance/common/Sidebar.vue" />
+    <entry file="file://$PROJECT_DIR$/static/Files/listing/浙江工商大学创文.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Files/listing/浙江工商大学创文1.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/Files/statement/1622131.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/js/xlsx/js-xlsx-master/bin/xlsx.njs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/FileSaver.js-master/src/FileSaver.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin/page/listprjft.vue" />
+    <entry file="file://$PROJECT_DIR$/src/finance/page/myfinance.vue" />
+    <entry file="file://$PROJECT_DIR$/src/admin/page/listtaken.vue" />
+    <entry file="file://$PROJECT_DIR$/src/finance/page/mypf.vue" />
+    <entry file="file://$PROJECT_DIR$/src/finance/page/cashier.vue" />
+    <entry file="file://$PROJECT_DIR$/src/admin/page/statements4prj.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/page/myprj.vue" />
+    <entry file="file://$PROJECT_DIR$/screenshots/wms2.png" />
+    <entry file="file://$PROJECT_DIR$/screenshots/wms1.png" />
+    <entry file="file://$PROJECT_DIR$/src/admin/page/customer.vue" />
+    <entry file="file://E:/课外锻炼/yb/ybprjprocessingweb/src/admin/page/Login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/课外锻炼/yb/ybprjprocessingweb/src/admin/page/listadmin.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4788" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin/page/clerk.vue" />
+    <entry file="file://$PROJECT_DIR$/src/admin/page/show.vue" />
+    <entry file="file://$PROJECT_DIR$/src/assets/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/teacher/common/Home.vue" />
+    <entry file="file://$PROJECT_DIR$/src/teacher/common/Sidebar.vue" />
+    <entry file="file://$PROJECT_DIR$/src/admin/page/account_teacher.vue" />
+    <entry file="file://$PROJECT_DIR$/src/teacher/page/look.vue" />
+    <entry file="file://$PROJECT_DIR$/src/teacher/common/Header.vue" />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin/page/deal.vue" />
+    <entry file="file://$PROJECT_DIR$/src/student/page/course.vue" />
+    <entry file="file://$PROJECT_DIR$/src/student/common/Header.vue" />
+    <entry file="file://$PROJECT_DIR$/src/student/page/write.vue" />
+    <entry file="file://$PROJECT_DIR$/src/student/common/Home.vue" />
+    <entry file="file://$PROJECT_DIR$/src/student/common/Sidebar.vue" />
+    <entry file="file://$PROJECT_DIR$/config/dev.env.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/prod.env.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin/page/watch.vue" />
+    <entry file="file://$PROJECT_DIR$/src/admin/common/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin/common/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1748">
+          <caret line="132" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin/common/Sidebar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="42" column="47" lean-forward="true" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin/page/favorite_admin.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2584">
+          <caret line="136" column="18" selection-start-line="136" selection-start-column="18" selection-end-line="136" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/admin/page/account_admin.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="178" column="17" selection-start-line="178" selection-start-column="17" selection-end-line="178" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
