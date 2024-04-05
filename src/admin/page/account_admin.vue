@@ -173,7 +173,7 @@
             if(localStorage.getItem('username')===""){
                 this.$router.replace('/login');
             }
-            else if(localStorage.getItem('role')!=1){
+            else if(localStorage.getItem('role')!=="1"){
                 this.$router.replace('/admin');
             }
             else{this.init();}
@@ -242,7 +242,6 @@
                     ip:'',
                     port:'',
                     role: 0
-                    // ban:'0'
                 };
                 this.dialogFormVisibleed1=true
             },

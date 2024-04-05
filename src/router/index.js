@@ -23,27 +23,39 @@ export default new Router({
                 },
                 {
                     path: '/announcement_overview',
-                    component: resolve => require(['../admin/page/announcement_overview.vue'], resolve)
+                    component: resolve => require(['../admin/page/announcement_overview.vue'], resolve),
+                },
+                {
+                    path: '/announcemen_overview',
+                    component: resolve => require(['../admin/page/announcemen_overview.vue'], resolve),
                 },
                 {
                     path: '/announcement_admin',
                     component: resolve => require(['../admin/page/announcement_admin.vue'], resolve)
                 },
                 {
-                    path: '/trust_admin',
-                    component: resolve => require(['../admin/page/trust_admin.vue'], resolve)
+                    path: '/com_admin',
+                    component: resolve => require(['../admin/page/com_admin.vue'], resolve)
                 },
                 {
-                    path: '/strategy_admin',
-                    component: resolve => require(['../admin/page/strategy_admin.vue'], resolve)
+                    path: '/publisher_strategy',
+                    component: resolve => require(['../admin/page/publisher_strategy.vue'], resolve),
+                },
+                {
+                    path: '/logger_strategy',
+                    component: resolve => require(['../admin/page/logger_strategy.vue'], resolve),
                 },
                 {
                     path: '/key_admin',
                     component: resolve => require(['../admin/page/key_admin.vue'], resolve)
                 },
                 {
-                    path: '/welcome',
-                    component: resolve => require(['../admin/page/welcome.vue'], resolve)
+                    path: '/publisher_detail/:id',
+                    component: resolve => require(['../admin/page/publisher_detail.vue'], resolve)
+                },
+                {
+                    path: '/logger_detail/:id',
+                    component: resolve => require(['../admin/page/logger_detail.vue'], resolve)
                 }
             ]
         }

@@ -9,19 +9,19 @@ import "babel-polyfill";
 import $ from 'jquery';
 import VueResource from 'vue-resource'
 import  VueQuillEditor from 'vue-quill-editor'
-import socketIO from 'socket.io-client'
-import VueSocketIO from 'vue-socket.io'
+// import socketIO from 'socket.io-client'
+// import VueSocketIO from 'vue-socket.io'
 // Vue.use(new VueSocketIO({
 //     debug: true,
 //     connection: 'http://127.0.0.1:9090/api'
 // }))
 
-Vue.use(new VueSocketIO({
-    debug: true,
-    connection: socketIO('http://127.0.0.1:9090/api', {
-        autoConnect:false
-    })
-}))
+// Vue.use(new VueSocketIO({
+//     debug: true,
+//     connection: socketIO('http://127.0.0.1:9090/api', {
+//         autoConnect:false
+//     })
+// }))
 
 Vue.use(VueQuillEditor);
 Vue.use(VueResource);

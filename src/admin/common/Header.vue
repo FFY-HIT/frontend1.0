@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-        <div class="logo">管理</div>
+        <div class="logo">{{ id }}</div>
         <div class="user-info">
             <el-dropdown trigger="click" @command="handleCommand">
                 <span class="el-dropdown-link">
@@ -18,7 +18,7 @@
             title="修改密码"
             :visible.sync="dialogFormVisibleed1">
             <div class="form-box">
-                <el-form :model="form1" :rules="rules1" ref="form1" label-width="150px">
+                <el-form :model="form1" ref="form1" label-width="150px">
                     <el-form-item label="新密码" prop="name">
                         <el-input v-model="password1" type="password" placeholder="请输入新密码"></el-input>
                     </el-form-item>
@@ -39,11 +39,30 @@
     export default {
         data() {
             return {
+                id: '',
                 name: '用户名',
                 dialogFormVisibleed1:false,
                 password1:'',
                 password2:'',
                 form1:{},
+            }
+        },
+        mounted() {
+            this.id = localStorage.getItem('id');
+            if(this.id === "1"){
+                this.id = "CN节点"
+            }
+            else if(this.id === "2"){
+                this.id = "RU节点"
+            }
+            else if(this.id === "3"){
+                this.id = "PK节点"
+            }
+            else if(this.id === "4"){
+                this.id = "KZ节点"
+            }
+            else if(this.id === "5"){
+                this.id = "MO节点"
             }
         },
         computed:{
