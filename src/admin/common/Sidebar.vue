@@ -3,7 +3,7 @@
         <el-menu :default-active="onRoutes" class="el-menu-vertical-demo" theme="dark" unique-opened router>
             <template v-for="item in items">
                 <template v-if="item.subs">
-                    <el-submenu :index="item.index">
+                    <el-submenu :index="item.title">
                         <template slot="title"><i :class="item.icon"></i>{{ item.title }}</template>
                         <el-menu-item v-for="(subItem,i) in item.subs" :key="i" :index="subItem.index">{{ subItem.title }}
                         </el-menu-item>
@@ -27,38 +27,54 @@
                     [
                         {
                             icon: 'el-icon-setting',
-                            index: 'announcement_overview',
-                            title: '公告总览',
+                            title: '发布者模块',
+                            subs:[
+                                {
+                                    index: 'announcement_overview',
+                                    title: '发布者公告总览'
+                                },
+                                {
+                                    index: 'announcement_admin',
+                                    title: '公告管理'
+                                },
+                                {
+                                    index: 'publisher_strategy',
+                                    title: '发布者策略管理'
+                                }
+                            ]
                         },
                         {
                             icon: 'el-icon-setting',
-                            index: 'announcement_admin',
-                            title: '公告管理'
+                            title: '记录者模块',
+                            subs:[
+                                {
+                                    index: 'announcemen_overview',
+                                    title: '记录者公告总览'
+                                },
+                                {
+                                    index: 'logger_strategy',
+                                    title: '记录者策略管理'
+                                }
+                            ]
                         },
                         {
                             icon: 'el-icon-setting',
-                            index: 'trust_admin',
-                            title: '信任管理',
-                        },
-                        {
-                            icon: 'el-icon-setting',
-                            index: 'strategy_admin',
-                            title: '策略管理',
-                        },
-                        {
-                            icon: 'el-icon-setting',
-                            index: 'key_admin',
-                            title: '密钥管理',
+                            title: '管理者模块',
+                            subs:[
+                                {
+                                    index: 'com_admin',
+                                    title: '通信管理'
+                                },
+                                {
+                                    index: 'key_admin',
+                                    title: '密钥管理'
+                                }
+                            ]
                         },
                         {
                             icon: 'el-icon-setting',
                             index: 'account_admin',
                             title: '用户管理',
-                        },
-                        {
-                            icon: 'el-icon-setting',
-                            index: 'welcome',
-                            title: '欢迎',
                         }
                     ]
             }

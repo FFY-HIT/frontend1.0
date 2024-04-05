@@ -5,26 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f3288f1-0b3c-4850-b97d-80f084bf10a7" name="Default" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/admin/page/announcemen_overview.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/page/com_admin.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/page/logger_detail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/page/logger_strategy.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/page/publisher_detail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/admin/page/publisher_strategy.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/dev-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/dev-server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.dev.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/admin/common/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/common/Header.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/admin/common/Sidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/common/Sidebar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/common/Stagebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/common/Stagebar.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/admin/page/account_admin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/account_admin.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/page/announcement_admin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/announcement_admin.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/admin/page/announcement_overview.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/announcement_overview.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/page/key_admin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/key_admin.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/page/log_admin.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/page/strategy_admin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/strategy_admin.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/page/trust_admin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/trust_admin.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/page/container_admin.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/page/favorite_admin.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/page/strategy_admin.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/page/trust_admin.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/admin/page/welcome.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
     </list>
@@ -583,6 +581,42 @@
       <workItem from="1710989232283" duration="57000" />
       <workItem from="1710989373000" duration="358000" />
       <workItem from="1712297990510" duration="1969000" />
+      <workItem from="1712304474614" duration="1386000" />
+      <workItem from="1712323235286" duration="600000" />
+      <workItem from="1712388648343" duration="1261000" />
+      <workItem from="1712407804497" duration="1838000" />
+      <workItem from="1712455167598" duration="5522000" />
+      <workItem from="1712558421500" duration="3228000" />
+      <workItem from="1712624947299" duration="977000" />
+      <workItem from="1712625949025" duration="1343000" />
+      <workItem from="1712652673520" duration="1236000" />
+      <workItem from="1712731203693" duration="4510000" />
+      <workItem from="1712797833447" duration="3951000" />
+      <workItem from="1712813030881" duration="7558000" />
+      <workItem from="1712838827522" duration="1792000" />
+      <workItem from="1712845499999" duration="903000" />
+      <workItem from="1713058768485" duration="6350000" />
+      <workItem from="1713074944577" duration="2400000" />
+      <workItem from="1713093453294" duration="5342000" />
+      <workItem from="1713155561809" duration="217000" />
+      <workItem from="1713176678189" duration="3000" />
+      <workItem from="1713330990194" duration="10142000" />
+      <workItem from="1713406583410" duration="6526000" />
+      <workItem from="1713420284912" duration="11958000" />
+      <workItem from="1713492025205" duration="611000" />
+      <workItem from="1713495584318" duration="3587000" />
+      <workItem from="1713502758048" duration="7424000" />
+      <workItem from="1713580036120" duration="4341000" />
+      <workItem from="1713590817756" duration="2568000" />
+      <workItem from="1713608231076" duration="8005000" />
+      <workItem from="1713666550088" duration="601000" />
+      <workItem from="1713674926888" duration="4387000" />
+      <workItem from="1713701843692" duration="6119000" />
+      <workItem from="1713751799969" duration="4304000" />
+      <workItem from="1713782692003" duration="9802000" />
+      <workItem from="1713835801401" duration="3089000" />
+      <workItem from="1713870514359" duration="2595000" />
+      <workItem from="1713933961243" duration="12388000" />
     </task>
     <servers />
   </component>
@@ -624,6 +658,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
