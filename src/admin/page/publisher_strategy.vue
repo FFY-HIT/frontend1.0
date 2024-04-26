@@ -463,7 +463,7 @@ export default {
             else {
                 this.$http.post(main.url+"/strategy/add4",
                     {
-                        'uid': localStorage.getItem('uid'),
+                        'uid': localStorage.getItem('id'),
                         'id': this.form.id,
                         'ip': this.form.ip,
                         'port': this.form.port
@@ -513,7 +513,7 @@ export default {
                     this.form.id = "5"
                 this.$http.post(main.url+"/strategy/del2",
                     {
-                        'uid': localStorage.getItem('uid'),
+                        'uid': localStorage.getItem('id'),
                         'id': this.form.id,
                     },
                     {
@@ -593,7 +593,7 @@ export default {
             else {
                 this.$http.post(main.url+"/strategy/add6",
                     {
-                        'uid': localStorage.getItem('uid'),
+                        'uid': localStorage.getItem('id'),
                         'id': this.form.id,
                         'ip': this.form.ip,
                         'port': this.form.port
@@ -643,7 +643,7 @@ export default {
                     this.form.id = "5"
                 this.$http.post(main.url+"/strategy/del3",
                     {
-                        'uid': localStorage.getItem('uid'),
+                        'uid': localStorage.getItem('id'),
                         'id': this.form.id,
                     },
                     {
