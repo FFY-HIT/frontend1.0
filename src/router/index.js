@@ -18,6 +18,10 @@ export default new Router({
             component: resolve => require(['../admin/common/Home.vue'], resolve),
             children:[
                 {
+                    path: '/system_overview',
+                    component: resolve => require(['../admin/page/system_overview.vue'], resolve)
+                },
+                {
                     path: '/account_admin',
                     component: resolve => require(['../admin/page/account_admin.vue'], resolve)
                 },
