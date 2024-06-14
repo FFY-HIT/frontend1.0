@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f3288f1-0b3c-4850-b97d-80f084bf10a7" name="Default" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/common/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/common/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/common/Sidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/common/Sidebar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/common/Stagebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/common/Stagebar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/page/account_admin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/account_admin.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/page/announcemen_overview.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/announcemen_overview.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/page/announcement_admin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/announcement_admin.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/page/announcement_overview.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/announcement_overview.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/page/com_admin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/com_admin.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/page/key_admin.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/key_admin.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/page/logger_detail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/logger_detail.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/page/logger_strategy.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/logger_strategy.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/page/publisher_detail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/publisher_detail.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/page/publisher_strategy.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/publisher_strategy.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/page/system_overview.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/admin/page/system_overview.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/ing1.png" beforeDir="false" />
-    </list>
+    <list default="true" id="2f3288f1-0b3c-4850-b97d-80f084bf10a7" name="Default" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -625,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713948118289</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1718336065105</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718336065105</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
