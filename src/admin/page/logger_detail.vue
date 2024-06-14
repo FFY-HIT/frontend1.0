@@ -11,7 +11,7 @@
         <div style="font-size: 12px; font-weight: bold; color: black; margin-bottom: 10px;">
             进度条
         </div>
-        <StageBar :stages="['发布者发布公告', '记录者记录公告', '发布者确认接收', '记录者确认记录', '记录者已反馈消息']" :currentStage="currentStage" />
+        <StageBar :stages="['发布者发布公告', '记录者记录公告', '发布者确认接收', '记录者确认记录', '记录者已反馈消息']" :currentStage="currentStage" :timeStamp="timeStamp" />
         <div style="margin-bottom: 40px;"></div>
 
         <div>
@@ -107,7 +107,8 @@ export default {
     },
     data() {
         return {
-            currentStage: {}, // 这个值可以根据后端到达的阶段进行动态设置
+            currentStage: Number, // 这个值可以根据后端到达的阶段进行动态设置
+            timeStamp: [],
             dialogFormVisibleed: false,
             dialogFormVisibleed1: false,
             dialogFormVisibleed2: false,
@@ -153,16 +154,6 @@ export default {
                         }
                         this.currentStage = this.data1.stage;
                         console.log(this.currentStage);
-                        if(this.data1.nodeid==="1")
-                            this.data1.nodeid = "CN";
-                        else if(this.data1.nodeid==="2")
-                            this.data1.nodeid = "RU";
-                        else if(this.data1.nodeid==="3")
-                            this.data1.nodeid = "PK";
-                        else if(this.data1.nodeid==="4")
-                            this.data1.nodeid = "KZ";
-                        else if(this.data1.nodeid==="5")
-                            this.data1.nodeid = "MO";
 
                         if(this.data1.ip==="stack_node1")
                             this.data1.ip = "43.139.2.243";
@@ -181,6 +172,25 @@ export default {
                             this.data1.stage = "记录者确认记录";
                     }
                 );
+            this.$http.post(main.url+"/timestamp/logger",
+                {
+                    'id': this.$route.params.id
+                },
+                {
+                    headers: {'Content-Type':'application/x-www-form-urlencoded'},
+                    emulateJSON: true
+                })
+                .then(
+                    success=>{
+                        // this.data = ["111", "222", "333", "444", "555"]
+                        this.data1 = success.data
+                        this.timeStamp[0] = this.data1[0]
+                        this.timeStamp[1] = this.data1[1]
+                        this.timeStamp[2] = this.data1[2]
+                        this.timeStamp[3] = this.data1[3]
+                        this.timeStamp[4] = this.data1[4]
+                    }
+                )
         },
         log4(row) {
             this.dialogFormVisibleed5=true
@@ -251,17 +261,6 @@ export default {
                 .then(response => {
                     this.jsonContent = response.data;
                     for(let i=0;i<this.jsonContent.length;i++){
-                        if(this.jsonContent[i].nodeid==="1")
-                            this.jsonContent[i].nodeid = "CN";
-                        else if(this.jsonContent[i].nodeid==="2")
-                            this.jsonContent[i].nodeid = "RU";
-                        else if(this.jsonContent[i].nodeid==="3")
-                            this.jsonContent[i].nodeid = "PK";
-                        else if(this.jsonContent[i].nodeid==="4")
-                            this.jsonContent[i].nodeid = "KZ";
-                        else if(this.jsonContent[i].nodeid==="5")
-                            this.jsonContent[i].nodeid = "MO";
-
                         if(this.jsonContent[i].nodeip==="stack_node1")
                             this.jsonContent[i].nodeip = "43.139.2.243";
                         else if(this.jsonContent[i].nodeip==="stack_node2")
@@ -295,17 +294,6 @@ export default {
                             this.jsonContent[i].isequal = "一致";
                         else
                             this.jsonContent[i].isequal = "不一致";
-
-                        if(this.jsonContent[i].nodeid==="1")
-                            this.jsonContent[i].nodeid = "CN";
-                        else if(this.jsonContent[i].nodeid==="2")
-                            this.jsonContent[i].nodeid = "RU";
-                        else if(this.jsonContent[i].nodeid==="3")
-                            this.jsonContent[i].nodeid = "PK";
-                        else if(this.jsonContent[i].nodeid==="4")
-                            this.jsonContent[i].nodeid = "KZ";
-                        else if(this.jsonContent[i].nodeid==="5")
-                            this.jsonContent[i].nodeid = "MO";
 
                         if(this.jsonContent[i].nodeip==="stack_node1")
                             this.jsonContent[i].nodeip = "43.139.2.243";

@@ -51,16 +51,6 @@ export default {
                     success => {
                         this.data1 = success.data;
                         for (let i = 0; i < this.data1.length; i++) {
-                            if (this.data1[i].nodeid === "1")
-                                this.data1[i].nodeid = "CN";
-                            else if (this.data1[i].nodeid === "2")
-                                this.data1[i].nodeid = "RU";
-                            else if (this.data1[i].nodeid === "3")
-                                this.data1[i].nodeid = "PK";
-                            else if (this.data1[i].nodeid === "4")
-                                this.data1[i].nodeid = "KZ";
-                            else if (this.data1[i].nodeid === "5")
-                                this.data1[i].nodeid = "MO";
 
                             if (this.data1[i].ip === "stack_node1")
                                 this.data1[i].ip = "43.139.2.243";

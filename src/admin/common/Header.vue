@@ -1,6 +1,8 @@
 <template>
     <div class="header">
-        <div class="logo">{{ id }}</div>
+        <img class="user-logo" src="../../../static/img/ing.png">
+        <div class="logo">基于灵活分布式信任的域名资源数据发布系统&nbsp;&nbsp;&nbsp;&nbsp;{{ id }}</div>
+
         <div class="user-info">
             <el-dropdown trigger="click" @command="handleCommand">
                 <span class="el-dropdown-link">
@@ -26,8 +28,8 @@
                         <el-input v-model="password2" type="password" placeholder="请输入确认密码"></el-input>
                     </el-form-item>
                     <el-form-item style="text-align: center" >
-                        <el-button @click="dialogFormVisibleed1 = false">取消</el-button>
-                        <el-button type="primary" @click="submit()">确认</el-button>
+                        <el-button type="info" @click="dialogFormVisibleed1 = false">取消</el-button>
+                        <el-button type="success" @click="submit()">确认</el-button>
                     </el-form-item>
                 </el-form>
             </div>
@@ -111,15 +113,26 @@
         position: relative;
         box-sizing: border-box;
         width: 100%;
-        height: 70px;
+        height: 200px;
         font-size: 22px;
         line-height: 70px;
         color: #fff;
     }
+    .header .user-logo{
+        float: left;
+        position: absolute;
+        left:15px;
+        top:19px;
+        width:30px;
+        height:30px;
+        border-radius: 50%;
+    }
     .header .logo{
         float: left;
-        width:250px;
+        width: 500px;
+        font-size: 16px;
         text-align: center;
+        color: floralwhite;
     }
     .user-info {
         float: right;
@@ -146,4 +159,5 @@
     .el-dropdown-menu__item{
         text-align: center;
     }
+
 </style>

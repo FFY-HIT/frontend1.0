@@ -23,7 +23,7 @@
         </div>
         <div style="margin-bottom: 10px;"></div>
         <div>
-            <el-button @click="generatekey()" align="center">更新密钥对</el-button>
+            <el-button type="warning" @click="generatekey()">更新密钥对</el-button>
         </div>
 
         <el-dialog

@@ -51,17 +51,6 @@ export default {
                 success=>{
                     this.data=success.data;
                     for(let i=0;i<this.data.length;i++){
-                        if(this.data[i].nodeid==="1")
-                            this.data[i].nodeid = "CN";
-                        else if(this.data[i].nodeid==="2")
-                            this.data[i].nodeid = "RU";
-                        else if(this.data[i].nodeid==="3")
-                            this.data[i].nodeid = "PK";
-                        else if(this.data[i].nodeid==="4")
-                            this.data[i].nodeid = "KZ";
-                        else if(this.data[i].nodeid==="5")
-                            this.data[i].nodeid = "MO";
-
                         if(this.data[i].ip==="stack_node1")
                             this.data[i].ip = "43.139.2.243";
                         else if(this.data[i].ip==="stack_node2")
@@ -112,33 +101,7 @@ export default {
                     document.body.removeChild(link);
                 });
         }
-    },
-
-    // sockets:{
-    //     connect:function () {
-    //         console.log('连接成功')   // 判断是否正确连接上后端
-    //     },
-    //
-    //     current_stage:function (stage) {    // api为对应后端发出的信息接口
-    //         this.currentStage = stage      // 获取后端发出的信息
-    //     }
-    // },
-
-    // mounted () {    // 在组件开始渲染时进行调用
-    //
-    //     this.$socket.connect() // socket连接
-    //
-    //     setInterval(() => {
-    //         this.$socket.emit('get_current_stage');
-    //     }, 1000); // 每隔5秒发送一次消息
-    //     // this.$socket.emit('get_current_stage')  // 发送消息:对应后端test测试函数
-    //     console.log('连接中')
-    // },
-    //
-    // destroyed () {    // 当离开组件时，结束调用
-    //     if (this.$socket) this.$socket.disconnect()  // 如果socket连接存在，销毁socket连接
-    //     console.log('连接已断开')
-    // }
+    }
 };
 </script>
 <style>

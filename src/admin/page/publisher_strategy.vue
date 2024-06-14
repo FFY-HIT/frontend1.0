@@ -11,9 +11,11 @@
         </div>
         <label>
             <input type="radio" v-model="selectedOption1" value="option1" @change="changestrategy1()"> 指定节点数量
+            <p style="font-size: 12px;">此选项用于设置节点数量，并基于通信列表中节点数量的百分比进行检验，检验条件在0，1之间。</p>
         </label>
         <label>
             <input type="radio" v-model="selectedOption1" value="option2" @change="changestrategy1()"> 指定具体节点
+            <p style="font-size: 12px;">此选项用于设置具体检验的节点，节点需在通信列表中。</p>
         </label>
 
         <div style="margin-bottom: 10px;"></div>
@@ -22,8 +24,8 @@
                 <el-table-column label="策略" prop="stage" width="572px"></el-table-column>
                 <el-table-column label="检验条件" width="572px">
                     <template slot-scope="scope" width="100px">
-                        <el-button v-if="scope.row.stage === '指定节点数量'" type="text" @click="check3()">查看</el-button>
-                        <el-button v-if="scope.row.stage === '指定具体节点'" type="text" @click="check4()">查看</el-button>
+                        <el-button v-if="scope.row.stage === '指定节点数量'" type="text" @click="check3()">编辑</el-button>
+                        <el-button v-if="scope.row.stage === '指定具体节点'" type="text" @click="check4()">编辑</el-button>
                     </template>
                 </el-table-column>
             </el-table>
@@ -35,9 +37,11 @@
         </div>
         <label>
             <input type="radio" v-model="selectedOption2" value="option1" @change="changestrategy2()"> 指定节点数量
+            <p style="font-size: 12px;">此选项用于设置节点数量，并基于通信列表中节点数量的百分比进行检验，检验条件在0，1之间。</p>
         </label>
         <label>
             <input type="radio" v-model="selectedOption2" value="option2" @change="changestrategy2()"> 指定具体节点
+            <p style="font-size: 12px;">此选项用于设置具体检验的节点，节点需在通信列表中。</p>
         </label>
 
         <div style="margin-bottom: 10px;"></div>
@@ -47,8 +51,8 @@
                 <el-table-column label="检验条件" width="572px">
 
                     <template slot-scope="scope" width="100px">
-                        <el-button v-if="scope.row.stage === '指定节点数量'" type="text" @click="check5()">查看</el-button>
-                        <el-button v-if="scope.row.stage === '指定具体节点'" type="text" @click="check6()">查看</el-button>
+                        <el-button v-if="scope.row.stage === '指定节点数量'" type="text" @click="check5()">编辑</el-button>
+                        <el-button v-if="scope.row.stage === '指定具体节点'" type="text" @click="check6()">编辑</el-button>
                     </template>
                 </el-table-column>
             </el-table>
@@ -68,8 +72,8 @@
                         <el-input v-model="form.condition" type="condition" placeholder="请输入新检验条件"></el-input>
                     </el-form-item>
                     <el-form-item style="text-align: center" >
-                        <el-button @click="dialogFormVisibleed = false" >取消</el-button>
-                        <el-button @click="submit1(form)">修改</el-button>
+                        <el-button type="info" @click="dialogFormVisibleed = false" >取消</el-button>
+                        <el-button type="warning" @click="submit1(form)">修改</el-button>
                     </el-form-item>
                 </el-form>
             </div>
@@ -87,8 +91,8 @@
                         <el-input v-model="form.condition" type="condition" placeholder="请输入新检验条件"></el-input>
                     </el-form-item>
                     <el-form-item style="text-align: center" >
-                        <el-button @click="dialogFormVisibleed1 = false" >取消</el-button>
-                        <el-button @click="submit2(form)">修改</el-button>
+                        <el-button type="info" @click="dialogFormVisibleed1 = false" >取消</el-button>
+                        <el-button type="warning" @click="submit2(form)">修改</el-button>
                     </el-form-item>
                 </el-form>
             </div>
@@ -109,9 +113,9 @@
                 <el-table-column label="端口号" prop="port" width="229px"></el-table-column>
             </el-table>
             <div style="text-align: center;">
-                <el-button @click="dialogFormVisibleed2 = false">取消</el-button>
-                <el-button @click="add_mem1()">添加</el-button>
-                <el-button @click="del_mem1()">删除</el-button>
+                <el-button type="info" @click="dialogFormVisibleed2 = false">取消</el-button>
+                <el-button type="success" @click="add_mem1()">添加</el-button>
+                <el-button type="danger" @click="del_mem1()">删除</el-button>
             </div>
         </el-dialog>
         <el-dialog
@@ -130,8 +134,8 @@
                         <el-input v-model="form.port" type="port" placeholder="请输入新端口号"></el-input>
                     </el-form-item>
                     <el-form-item style="text-align: center" >
-                        <el-button @click="dialogFormVisibleed3 = false" >取消</el-button>
-                        <el-button @click="addlist_submit1()">添加</el-button>
+                        <el-button type="info" @click="dialogFormVisibleed3 = false" >取消</el-button>
+                        <el-button type="success" @click="addlist_submit1()">添加</el-button>
                     </el-form-item>
                 </el-form>
             </div>
@@ -147,8 +151,8 @@
                         <el-input v-model="form.id" type="id" placeholder="请输入id"></el-input>
                     </el-form-item>
                     <el-form-item style="text-align: center" >
-                        <el-button @click="dialogFormVisibleed4 = false" >取消</el-button>
-                        <el-button @click="dellist_submit1()">删除</el-button>
+                        <el-button type="info" @click="dialogFormVisibleed4 = false" >取消</el-button>
+                        <el-button type="danger" @click="dellist_submit1()">删除</el-button>
                     </el-form-item>
                 </el-form>
             </div>
@@ -168,9 +172,9 @@
                 <el-table-column label="端口号" prop="port" width="229px"></el-table-column>
             </el-table>
             <div style="text-align: center;">
-                <el-button @click="dialogFormVisibleed5 = false">取消</el-button>
-                <el-button @click="add_mem2()">添加</el-button>
-                <el-button @click="del_mem2()">删除</el-button>
+                <el-button type="info" @click="dialogFormVisibleed5 = false">取消</el-button>
+                <el-button type="success" @click="add_mem2()">添加</el-button>
+                <el-button type="danger" @click="del_mem2()">删除</el-button>
             </div>
         </el-dialog>
         <el-dialog
@@ -189,8 +193,8 @@
                         <el-input v-model="form.port" type="port" placeholder="请输入新端口号"></el-input>
                     </el-form-item>
                     <el-form-item style="text-align: center" >
-                        <el-button @click="dialogFormVisibleed6 = false" >取消</el-button>
-                        <el-button @click="addlist_submit2()">添加</el-button>
+                        <el-button type="info" @click="dialogFormVisibleed6 = false" >取消</el-button>
+                        <el-button type="success" @click="addlist_submit2()">添加</el-button>
                     </el-form-item>
                 </el-form>
             </div>
@@ -206,8 +210,8 @@
                         <el-input v-model="form.id" type="id" placeholder="请输入id"></el-input>
                     </el-form-item>
                     <el-form-item style="text-align: center" >
-                        <el-button @click="dialogFormVisibleed7 = false" >取消</el-button>
-                        <el-button @click="dellist_submit2()">删除</el-button>
+                        <el-button type="info" @click="dialogFormVisibleed7 = false" >取消</el-button>
+                        <el-button type="danger" @click="dellist_submit2()">删除</el-button>
                     </el-form-item>
                 </el-form>
             </div>
@@ -421,16 +425,6 @@ export default {
                 .then(response => {
                     this.jsonContent = response.data;
                     for(let i=0;i<this.jsonContent.length;i++){
-                        if(this.jsonContent[i].nodeid==="1")
-                            this.jsonContent[i].nodeid = "CN";
-                        else if(this.jsonContent[i].nodeid==="2")
-                            this.jsonContent[i].nodeid = "RU";
-                        else if(this.jsonContent[i].nodeid==="3")
-                            this.jsonContent[i].nodeid = "PK";
-                        else if(this.jsonContent[i].nodeid==="4")
-                            this.jsonContent[i].nodeid = "KZ";
-                        else if(this.jsonContent[i].nodeid==="5")
-                            this.jsonContent[i].nodeid = "MO";
 
                         if(this.jsonContent[i].nodeip==="stack_node1")
                             this.jsonContent[i].nodeip = "43.139.2.243";
@@ -501,16 +495,6 @@ export default {
             if(this.form.id==="")
                 this.$message({type: 'error', message: 'id不能为空！'});
             else {
-                if(this.form.id==="CN")
-                    this.form.id = "1"
-                else if(this.form.id==="RU")
-                    this.form.id = "2"
-                else if(this.form.id==="PK")
-                    this.form.id = "3"
-                else if(this.form.id==="KZ")
-                    this.form.id = "4"
-                else if(this.form.id==="MO")
-                    this.form.id = "5"
                 this.$http.post(main.url+"/strategy/del2",
                     {
                         'uid': localStorage.getItem('id'),
@@ -551,16 +535,6 @@ export default {
                 .then(response => {
                     this.jsonContent = response.data;
                     for(let i=0;i<this.jsonContent.length;i++){
-                        if(this.jsonContent[i].nodeid==="1")
-                            this.jsonContent[i].nodeid = "CN";
-                        else if(this.jsonContent[i].nodeid==="2")
-                            this.jsonContent[i].nodeid = "RU";
-                        else if(this.jsonContent[i].nodeid==="3")
-                            this.jsonContent[i].nodeid = "PK";
-                        else if(this.jsonContent[i].nodeid==="4")
-                            this.jsonContent[i].nodeid = "KZ";
-                        else if(this.jsonContent[i].nodeid==="5")
-                            this.jsonContent[i].nodeid = "MO";
 
                         if(this.jsonContent[i].nodeip==="stack_node1")
                             this.jsonContent[i].nodeip = "43.139.2.243";
@@ -631,16 +605,6 @@ export default {
             if(this.form.id==="")
                 this.$message({type: 'error', message: 'id不能为空！'});
             else {
-                if(this.form.id==="CN")
-                    this.form.id = "1"
-                else if(this.form.id==="RU")
-                    this.form.id = "2"
-                else if(this.form.id==="PK")
-                    this.form.id = "3"
-                else if(this.form.id==="KZ")
-                    this.form.id = "4"
-                else if(this.form.id==="MO")
-                    this.form.id = "5"
                 this.$http.post(main.url+"/strategy/del3",
                     {
                         'uid': localStorage.getItem('id'),

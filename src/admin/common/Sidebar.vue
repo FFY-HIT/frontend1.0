@@ -27,6 +27,11 @@
                     [
                         {
                             icon: 'el-icon-setting',
+                            index: 'system_overview',
+                            title: '系统总览'
+                        },
+                        {
+                            icon: 'el-icon-setting',
                             title: '发布者模块',
                             subs:[
                                 {
@@ -59,7 +64,7 @@
                         },
                         {
                             icon: 'el-icon-setting',
-                            title: '管理者模块',
+                            title: '系统配置',
                             subs:[
                                 {
                                     index: 'com_admin',
@@ -68,13 +73,12 @@
                                 {
                                     index: 'key_admin',
                                     title: '密钥管理'
+                                },
+                                {
+                                    index: 'account_admin',
+                                    title: '用户管理',
                                 }
                             ]
-                        },
-                        {
-                            icon: 'el-icon-setting',
-                            index: 'account_admin',
-                            title: '用户管理',
                         }
                     ]
             }

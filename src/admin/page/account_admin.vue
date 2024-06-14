@@ -23,7 +23,7 @@
                 </el-table-column>
             </el-table>
             <div style="margin-bottom: 10px;"></div>
-            <el-button @click="adduser()" align="center">添加账号</el-button>
+            <el-button type="success" @click="adduser()">添加账号</el-button>
             <template>
             </template>
         </div>
@@ -40,7 +40,7 @@
                         <el-input v-model="form.password2" type="password" placeholder="请确认新密码"></el-input>
                     </el-form-item>
                     <el-form-item style="text-align: center" >
-                        <el-button @click="change_pass('form')">修改密码</el-button>
+                        <el-button type="warning" @click="change_pass('form')">修改密码</el-button>
                     </el-form-item>
                     <el-form-item label="账号类型" prop="role">
                         <el-select v-model="form.role" placeholder="请选择账号类型">
@@ -53,10 +53,10 @@
                         </el-select>
                     </el-form-item>
                     <el-form-item style="text-align: center" >
-                        <el-button @click="change_role('form')">修改账号类型</el-button>
+                        <el-button type="warning" @click="change_role('form')">修改账号类型</el-button>
                     </el-form-item>
                     <el-form-item style="text-align: center" >
-                        <el-button @click="dialogFormVisibleed = false" >取消</el-button>
+                        <el-button type="info" @click="dialogFormVisibleed = false" >取消</el-button>
                     </el-form-item>
                 </el-form>
             </div>
@@ -96,8 +96,8 @@
                         </el-select>
                     </el-form-item>
                     <el-form-item style="text-align: center" >
-                        <el-button @click="dialogFormVisibleed1 = false" >取消</el-button>
-                        <el-button @click="adduser_submit(form)">添加</el-button>
+                        <el-button type="info" @click="dialogFormVisibleed1 = false" >取消</el-button>
+                        <el-button type="success" @click="adduser_submit(form)">添加</el-button>
                     </el-form-item>
                 </el-form>
             </div>

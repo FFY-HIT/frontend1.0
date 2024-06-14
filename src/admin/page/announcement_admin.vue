@@ -6,9 +6,14 @@
                 <el-breadcrumb-item>公告管理</el-breadcrumb-item>
             </el-breadcrumb>
         </div>
-        <div style="font-size: 16px; font-weight: bold; color: black; margin-bottom: 10px;">
-            编辑公告
+        <div style="font-size: 16px; font-weight: bold; color: black; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center;">
+            <div>编辑公告</div>
+            <div>
+                <el-button type="success" @click="addNewRow()">添加</el-button>
+                <el-button type="info" @click="publish()">发布</el-button>
+            </div>
         </div>
+
         <div>
             <el-table :data="tableData" border style="width: 100%" ref="multipleTable">
                 <el-table-column label="HOST" prop="HOST" width="228px">
@@ -36,16 +41,18 @@
                         <input v-model="scope.row.RDATA" class="light-input" style="width: 189px;" />
                     </template>
                 </el-table-column>
+                <el-table-column label="移除" width="100px">
+                    <template slot-scope="scope">
+                        <el-button type="danger" @click="deleteRow(scope.$index)">删除</el-button>
+                    </template>
+                </el-table-column>
             </el-table>
         </div>
 
         <div style="margin-bottom: 10px;"></div>
-        <el-button @click="addNewRow()" align="center">新建表格</el-button>
-        <el-button @click="deleteRow()" align="center">删除表格</el-button>
-        <el-button @click="generateFile()" align="center">生成公告</el-button>
+        <el-button type="info" @click="generateFile()">生成公告</el-button>
         <input type="file" ref="fileInput" style="display: none" @change="handleFileChange" />
-        <el-button @click="selectfile()" align="center">选择文件</el-button>
-        <el-button @click="publish()" align="center">发布公告</el-button>
+        <el-button type="info" @click="selectfile()">选择文件</el-button>
         <div style="margin-bottom: 10px;"></div>
 
         <div style="font-size: 16px; font-weight: bold; color: black; margin-bottom: 10px;">
@@ -152,9 +159,9 @@ export default {
         addNewRow() {
             this.tableData.push({ HOST: '', TTL: '', CLASS: '', TYPE: '', RDATA: '' });
         },
-        deleteRow() {
-            if (this.tableData.length > 0) {
-                this.tableData.pop(); // 删除数组中的最后一个元素
+        deleteRow(index) {
+            if (index >= 0 && index < this.tableData.length) {
+                this.tableData.splice(index, 1); // 删除指定索引的行
             }
         },
         handleFileChange() {

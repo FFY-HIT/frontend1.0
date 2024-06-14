@@ -19,8 +19,8 @@
         </div>
         <div style="margin-bottom: 10px;"></div>
         <div>
-            <el-button @click="list_config()" align="center">添加通信节点</el-button>
-            <el-button @click="list1_config()" align="center">删除通信节点</el-button>
+            <el-button type="success" @click="list_config()">添加通信节点</el-button>
+            <el-button type="danger" @click="list1_config()">删除通信节点</el-button>
         </div>
         <el-dialog
             width="30%"
@@ -38,8 +38,8 @@
                         <el-input v-model="form.port" type="port" placeholder="请输入新端口号"></el-input>
                     </el-form-item>
                     <el-form-item style="text-align: center" >
-                        <el-button @click="dialogFormVisibleed = false" >取消</el-button>
-                        <el-button @click="addlist_submit('form')">添加</el-button>
+                        <el-button type="info" @click="dialogFormVisibleed = false" >取消</el-button>
+                        <el-button type="success" @click="addlist_submit('form')">添加</el-button>
                     </el-form-item>
                 </el-form>
             </div>
@@ -55,8 +55,8 @@
                         <el-input v-model="form.id" type="id" placeholder="请输入id"></el-input>
                     </el-form-item>
                     <el-form-item style="text-align: center" >
-                        <el-button @click="dialogFormVisibleed1 = false" >取消</el-button>
-                        <el-button @click="dellist_submit('form')">删除</el-button>
+                        <el-button type="info" @click="dialogFormVisibleed1 = false" >取消</el-button>
+                        <el-button type="danger" @click="dellist_submit('form')">删除</el-button>
                     </el-form-item>
                 </el-form>
             </div>
@@ -107,17 +107,6 @@ export default {
                 success=>{
                     this.data1=success.data;
                     for(let i=0;i<this.data1.length;i++){
-                        if(this.data1[i].id==="1")
-                            this.data1[i].id = "CN";
-                        else if(this.data1[i].id==="2")
-                            this.data1[i].id = "RU";
-                        else if(this.data1[i].id==="3")
-                            this.data1[i].id = "PK";
-                        else if(this.data1[i].id==="4")
-                            this.data1[i].id = "KZ";
-                        else if(this.data1[i].id==="5")
-                            this.data1[i].id = "MO";
-
                         if(this.data1[i].ip==="stack_node1")
                             this.data1[i].ip = "43.139.2.243";
                         else if(this.data1[i].ip==="stack_node2")
@@ -189,16 +178,6 @@ export default {
             if(this.form.id==="")
                 this.$message({type: 'error', message: 'id不能为空！'});
             else {
-                if(this.form.id==="CN")
-                    this.form.id = "1"
-                else if(this.form.id==="RU")
-                    this.form.id = "2"
-                else if(this.form.id==="PK")
-                    this.form.id = "3"
-                else if(this.form.id==="KZ")
-                    this.form.id = "4"
-                else if(this.form.id==="MO")
-                    this.form.id = "5"
                 this.$http.post(main.url+"/list/del",
                     {
                         'uid': localStorage.getItem('id'),
